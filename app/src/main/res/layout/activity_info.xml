@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000305"
+    android:isScrollContainer="true"
+    android:scrollbarSize="10dp"
+    tools:context=".info">
+
+
+        <TextView
+            android:id="@+id/txtRamonTitle"
+            android:layout_width="174dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/alef_bold"
+            android:text="Ramon Ruiz"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/imgRamon"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgOmar" />
+
+        <TextView
+            android:id="@+id/txtMainTiItle"
+            android:layout_width="254dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Nuestro Equipo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgOmar"
+            android:layout_width="206dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMainTiItle"
+            app:srcCompat="@drawable/yo" />
+
+        <TextView
+            android:id="@+id/txtOmarTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="45dp"
+            android:fontFamily="@font/alef_bold"
+            android:text="Omar Mendoza    "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtOmarDesc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgOmar"
+            app:layout_constraintTop_toBottomOf="@+id/txtMainTiItle" />
+
+        <TextView
+            android:id="@+id/txtOmarDesc"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/alef_bold"
+            android:text="Ing. en T.I.S.I                  6to semestre        0197921@up.edu.mx"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgOmar"
+            app:layout_constraintTop_toBottomOf="@+id/txtOmarTitle" />
+
+        <ImageView
+            android:id="@+id/imgRamon"
+            android:layout_width="194dp"
+            android:layout_height="208dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtOmarDesc"
+            app:srcCompat="@drawable/ramon" />
+
+        <TextView
+            android:id="@+id/txtRamonDesc"
+            android:layout_width="172dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/alef_bold"
+            android:text="Ing. en T.I.S.I                  6to semestre        0223276@up.edu.mx"
+            app:layout_constraintEnd_toStartOf="@+id/imgRamon"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRamonTitle" />
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FF0303"
+            android:text="Regresar al Menú"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.099"
+            android:onClick="onClick"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="499dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
