@@ -31,7 +31,7 @@
             android:layout_height="62dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/abril_fatface"
-            android:text="Nuestro Equipo"
+            android:text="The team"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="34sp"
@@ -112,15 +112,15 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:backgroundTint="#FF0303"
-            android:text="Regresar al Menú"
+            android:backgroundTint="@color/purple_500"
+            android:onClick="onClick"
+            android:text="Back to menu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.086"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.099"
-            android:onClick="onClick"/>
+            app:layout_constraintVertical_bias="0.099" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"

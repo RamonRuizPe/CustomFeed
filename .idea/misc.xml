@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/font/abril_fatface.xml" value="0.284375" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/font/alef_bold.xml" value="0.284375" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/font/open_sans.xml" value="0.284375" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/font/trade_winds.xml" value="0.284375" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/activity_feed.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/activity_info.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/activity_random.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/activity_random2.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/content_feed.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/feed_row.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/fragment_first.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/benra/AndroidStudioProjects/ProyectoParcial2/CustomFeed/app/src/main/res/layout/recycler_view.xml" value="0.2391304347826087" />
         <entry key="..\:/Users/omivb/AndroidStudioProjects/ProyectoParcial2/app/src/main/res/layout/activity_info.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/omivb/AndroidStudioProjects/ProyectoParcial2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/omivb/AndroidStudioProjects/ProyectoParcial2/app/src/main/res/layout/activity_random.xml" value="0.36666666666666664" />

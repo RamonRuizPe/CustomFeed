@@ -42,13 +42,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#FF0000"
-        android:text="Regresar"
+        android:backgroundTint="@color/purple_500"
+        android:onClick="onClick"
+        android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnRand"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gifImageView"
-        android:onClick="onClick"/>
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 
     <Button
         android:id="@+id/btnRand"
@@ -57,12 +57,12 @@
         android:layout_marginStart="101dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#061EBD"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="onClickRand"
         android:text="Una Sorpresa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnBackRand"
-        app:layout_constraintTop_toBottomOf="@+id/gifImageView"
-        android:onClick="onClickRand"/>
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
