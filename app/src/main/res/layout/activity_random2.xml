@@ -9,8 +9,8 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView2"
-        android:layout_width="411dp"
-        android:layout_height="316dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:src="@drawable/dio2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,8 +18,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="197dp"
-        android:layout_height="123dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:src="@drawable/jojos"
         app:layout_constraintBottom_toBottomOf="@+id/gifImageView2"
         app:layout_constraintEnd_toEndOf="parent"

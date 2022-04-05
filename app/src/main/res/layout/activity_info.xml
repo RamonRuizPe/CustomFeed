@@ -12,14 +12,16 @@
 
         <TextView
             android:id="@+id/txtRamonTitle"
-            android:layout_width="174dp"
-            android:layout_height="27dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
             android:fontFamily="@font/alef_bold"
             android:text="Ramon Ruiz"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtRamonDesc"
             app:layout_constraintEnd_toStartOf="@+id/imgRamon"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,14 +29,16 @@
 
         <TextView
             android:id="@+id/txtMainTiItle"
-            android:layout_width="254dp"
-            android:layout_height="62dp"
-            android:layout_marginTop="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="20dp"
             android:fontFamily="@font/abril_fatface"
             android:text="The team"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/imgOmar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
@@ -42,10 +46,13 @@
 
         <ImageView
             android:id="@+id/imgOmar"
-            android:layout_width="206dp"
-            android:layout_height="168dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
+            app:layout_constraintEnd_toStartOf="@+id/txtOmarTitle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtMainTiItle"
             app:srcCompat="@drawable/yo" />
@@ -53,11 +60,11 @@
         <TextView
             android:id="@+id/txtOmarTitle"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="1dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginBottom="45dp"
+            android:layout_marginBottom="1dp"
             android:fontFamily="@font/alef_bold"
             android:text="Omar Mendoza    "
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -70,14 +77,15 @@
 
         <TextView
             android:id="@+id/txtOmarDesc"
-            android:layout_width="150dp"
+            android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="1dp"
             android:fontFamily="@font/alef_bold"
-            android:text="Ing. en T.I.S.I                  6to semestre        0197921@up.edu.mx"
+            android:text="Ing. en T.I.S.I\n6to semestre\n0197921@up.edu.mx"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imgOmar"
@@ -85,21 +93,23 @@
 
         <ImageView
             android:id="@+id/imgRamon"
-            android:layout_width="194dp"
-            android:layout_height="208dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtOmarDesc"
+            app:layout_constraintStart_toEndOf="@+id/txtRamonDesc"
+            app:layout_constraintTop_toTopOf="@+id/guideline5"
             app:srcCompat="@drawable/ramon" />
 
         <TextView
             android:id="@+id/txtRamonDesc"
-            android:layout_width="172dp"
-            android:layout_height="104dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="1dp"
             android:fontFamily="@font/alef_bold"
-            android:text="Ing. en T.I.S.I                  6to semestre        0223276@up.edu.mx"
+            android:text="Ing. en T.I.S.I\n6to semestre\n0223276@up.edu.mx"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
             app:layout_constraintEnd_toStartOf="@+id/imgRamon"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -110,24 +120,28 @@
             style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/purple_500"
             android:onClick="onClick"
             android:text="Back to menu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.086"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.099" />
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_begin="499dp" />
+            app:layout_constraintGuide_percent="0.7" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
